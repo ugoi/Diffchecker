@@ -16,7 +16,7 @@ Comparing text strings in the command line is a common task, especially for deve
 To install `diffchecker`, run the following command in your terminal:
 
 ```bash
-bash <(curl -s https://raw.githubusercontent.com/ugoi/diffchecker/main/install.sh)
+sudo bash -c "$(curl https://raw.githubusercontent.com/ugoi/diffchecker/main/install.sh)"
 ```
 This script will automatically download and install `diffchecker` to `/usr/local/bin`, making it globally accessible from your terminal.
 
