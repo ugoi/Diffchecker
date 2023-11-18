@@ -18,7 +18,9 @@ To install `diffchecker`, run the following command in your terminal:
 ```bash
 sudo bash -c "$(curl https://raw.githubusercontent.com/ugoi/diffchecker/main/install.sh)"
 ```
+Restart your terminal to use diffchecker.
 This script will automatically download and install `diffchecker` to `/usr/local/bin`, making it globally accessible from your terminal.
+
 
 ## Usage
 
