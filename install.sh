@@ -2,7 +2,7 @@
 # install.sh - Installer for diffchecker
 
 INSTALL_DIR="/usr/local/bin"
-SCRIPT_URL="https://raw.githubusercontent.com/yourusername/diffchecker/main/diffchecker.sh"
+SCRIPT_URL="https://raw.githubusercontent.com/ugoi/diffchecker/main/diffchecker.sh"
 
 echo "Downloading diffchecker..."
 curl -L $SCRIPT_URL -o $INSTALL_DIR/diffchecker
